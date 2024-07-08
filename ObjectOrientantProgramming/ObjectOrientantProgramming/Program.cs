@@ -1,4 +1,5 @@
 ﻿using ObjectOrientantProgramming.Encapsulation;
+using ObjectOrientantProgramming.Inheritance;
 using ObjectOrientantProgramming.TypesOfConstructors;
 
 internal class Pogram
@@ -46,6 +47,9 @@ internal class Pogram
         Console.WriteLine("Copy Constructor:");
         Console.WriteLine($"Compnay name is:{fifthcopy.Company}");
 
+        //Inheritance
+        FictionBook fictionbook = new FictionBook("OOP", "C#", 200, "Inheritance", "Programming");
+        fictionbook.DisplayInfo();
 
         Console.ReadKey();
     }
